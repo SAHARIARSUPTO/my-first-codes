@@ -1,0 +1,247 @@
+.header{
+    background-color: #e7cbb7;
+    background-image: url('./header_bg.png'),url("./developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-top: 0px;
+    
+
+    
+}
+
+*{
+    margin-top: 0;
+    margin: 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* First er supto name */
+.supto{
+    margin: 65px 0px;
+    align-items: center;
+}
+.pad{
+    font-weight: 800;
+    font-size: 45px;
+}
+.headerone{
+    color: darkorange;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+ul{
+    display: flex;
+    list-style: none;
+   align-items: center;
+}
+nav li{
+    margin: 50px;
+}
+.button{
+    font-weight: 700;
+    padding: 18px 36px;
+    font-size: 20px;
+    color: rgb(248, 246, 246);
+    height: 64px;
+    border-radius: 5px;
+    background-color: crimson;
+    border: 0;
+    text-decoration:none;
+}
+
+.banner-text{
+    display: flex;
+    align-items: center;
+    margin: 10px 200px;
+    margin-top: auto;
+}
+.sub-title{
+
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+
+.title{
+    font-weight: 700;
+    font-size: 85px;
+    color: crimson;
+}
+.banner-descrptn{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.Contact{
+text-size-adjust: 20px;
+width: 160px;
+height: 64px;
+left: 460px;
+top: 589px;
+
+border: 1px solid #FD6E0A;
+border-radius: 5px;
+margin-left: 20px;
+}
+main{
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+margin-top: 130px;
+background: rgb(228, 207, 200);
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin-top: 78px 0;
+margin-bottom: 10px;
+
+
+}
+.section-tile{
+    color: crimson ;
+    margin: 10px;
+    bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+
+
+
+}
+.section-dscrptn{
+    font-size: 20px;
+    text-size-adjust: 30px;
+    height: 30px;
+    color: #757575;
+}
+
+.about-info{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.info-title{
+    font-size: 20px;
+    color: crimson;
+    align-items: center;
+
+}
+.what{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.what-caption{
+    margin-top: 30px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skill{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill{
+    border-radius: 10px;
+    background: #e9cdcd;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.skill-title{
+    margin: 20px;
+    color: black;
+
+}
+.sum{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color:crimson ;
+    margin-bottom: 20px;
+}
+.resume{
+    display: flex;
+    margin-left: 500px;
+    font-size: 20px;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.bsc{
+
+    border-bottom: 5px solid rgb(241, 97, 44);
+}
+.hsc{
+
+    border-bottom: 5px solid crimson;
+
+}
+.foot{
+   margin-top: 200px;
+    width: 1600px;
+    height: 200px;
+    left: 0px;
+    top: 3476px;
+    background-color: rgb(228, 207, 200);
+    display: flex;
+    padding-top: 70px;
+
+    
+}
+.para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+
+
+}
+.connect{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.mess{
+    text-align: left;
+}
+.button-last{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(248, 246, 246);
+    height: 40px;
+    border-radius: 5px;
+    background-color: crimson;
+    border: 0;
+    text-decoration:none;
+}
